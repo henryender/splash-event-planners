@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.item:hover{
+  background-color: rgb(240, 236, 236);
+  cursor: pointer;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.item-dark:hover{
+  background-color: rgb(54, 50, 50);
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu-item{
+border-bottom: 2px solid #f1993d;
+
+}
+.name{
+  
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img{
+  width: 100%;
+  height: 10%;
+  border-radius: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.imgc{
+  border-radius: 40px;
+  width: 95%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-i4bv87-MuiSvgIcon-root{
+  color: #f3cfa8;
+}
+
+.label:hover{
+  color: #f1993d;
+  cursor: pointer;
+}
+.css-opt7yd-MuiStepIcon-text{
+  color: #f1993d;
 }
